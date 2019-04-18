@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on My New Hugo Site</title>
+    <title>Posts on 会飞的🧹</title>
     <link>http://www.umbel.top/post/</link>
-    <description>Recent content in Posts on My New Hugo Site</description>
+    <description>Recent content in Posts on 会飞的🧹</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
     <lastBuildDate>Sun, 31 Mar 2019 21:06:09 +0000</lastBuildDate>
     
 	<atom:link href="http://www.umbel.top/post/index.xml" rel="self" type="application/rss+xml" />
@@ -44,7 +45,7 @@ NDVIveg则代表完全被植被所覆盖的像元的NDVI值，即纯植被像元
 This BeanTech theme created by YuHsuan modified from the original Porter Kaijun
  Live Demo Usage I publish the whole project for your convenience, so you can just follow the instruction down below, then you can easily customiz your own blog!
 Let&amp;rsquo;s begin!!!
-Init git clone https://github.com/YenYuHsuan/hexo-theme-beantech.git ./hexo-beantech cd hexo-beantech npm install  Modify Modify _config.</description>
+Init git clone https://github.com/YenYuHsuan/hexo-theme-beantech.git ./hexo-beantech cd hexo-beantech npm install Modify Modify _config.yml file with your own info.</description>
     </item>
     
     <item>
@@ -228,9 +229,10 @@ LEN(VernacularAll) - PATINDEX(&amp;rsquo;%[1-9]%&amp;rsquo;, VernacularAll)
       
       <guid>http://www.umbel.top/post/hello-world/</guid>
       <description>Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick Start Create a new post $ hexo new &amp;quot;My New Post&amp;quot;  More info: Writing
-Run server $ hexo server  More info: Server
-Generate static files $ hexo generate  More info: Generating</description>
+Quick Start Create a new post $ hexo new &amp;#34;My New Post&amp;#34; More info: Writing
+Run server $ hexo server More info: Server
+Generate static files $ hexo generate More info: Generating
+Deploy to remote sites $ hexo deploy More info: Deployment</description>
     </item>
     
   </channel>
