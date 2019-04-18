@@ -1,72 +1,36 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    
-    <title>My New Hugo Site  | SQL拆分字符串构成新的记录</title>
-    <meta name="HandheldFriendly" content="True">
-    <meta name="MobileOptimized" content="320">
+<html lang="zh-Hans">
+<head>
 
-    <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="generator" content="Hugo 0.54.0" />
-    
-    
-      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
-    
+  <meta charset="utf-8" />
 
-    
-    
-      <link href="/dist/css/app.955516233bcafa4d2a1c13cea63c7b50.css" rel="stylesheet">
-    
+  
+  <title>SQL拆分字符串构成新的记录</title>
 
-    
+  
+  
+  <link href="//cdn.jsdelivr.net" rel="dns-prefetch">
+  <link href="//cdnjs.cloudflare.com" rel="dns-prefetch">
+  
+  <link href="//at.alicdn.com" rel="dns-prefetch">
+  
+  <link href="//fonts.googleapis.com" rel="dns-prefetch">
+  <link href="//fonts.gstatic.com" rel="dns-prefetch">
+  
+  
+  
+  
+  
 
-    
-      
-    
+  
 
-    
+  
+  
+  <meta name="description" content="原数据表的数据格式如下  要求将字段vernacular中用逗号”,”分隔的字符串单独取出，并且把相应行的spnumber也取出，最后形成一条新的记录。
+要求的结果如下 &amp;#160;
 
-    <meta property="og:title" content="SQL拆分字符串构成新的记录" />
-<meta property="og:description" content="原数据表的数据格式如下  要求将字段vernacular中用逗号”,”分隔的字符串单独取出，并且把相应行的spnumber也取出，最后形成一条新的记录。
-要求的结果如下 &#160;
-
- 实现的SQL语句如下 &#160;
-&ndash;拆分字段字符串形成新的记录
-CREATE TABLE tb
-(
- spnumber INT,
-vernacular VARCHAR(1000)
- ) 
-
-INSERT INTO tb
-SELECT SPNUMBER,
- COMNAME
-FROM dbo.CommonName 
- 
-
-DECLARE @i INT 
-SELECT @i = MAX(LEN(vernacular))
-FROM tb 
-SET ROWCOUNT @i 
-SELECT spnumber = IDENTITY( INT)
-INTO #t
-FROM syscolumns a,
-syscolumns b 
-SET ROWCOUNT 0 
-SELECT a.spnumber," />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="http://example.org/post/2009-05-12-sql%E6%8B%86%E5%88%86%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%9E%84%E6%88%90%E6%96%B0%E7%9A%84%E8%AE%B0%E5%BD%95/" />
-<meta property="article:published_time" content="2009-05-12T01:18:14&#43;00:00"/>
-<meta property="article:modified_time" content="2009-05-12T01:18:14&#43;00:00"/>
-
-<meta itemprop="name" content="SQL拆分字符串构成新的记录">
-<meta itemprop="description" content="原数据表的数据格式如下  要求将字段vernacular中用逗号”,”分隔的字符串单独取出，并且把相应行的spnumber也取出，最后形成一条新的记录。
-要求的结果如下 &#160;
-
- 实现的SQL语句如下 &#160;
-&ndash;拆分字段字符串形成新的记录
+ 实现的SQL语句如下 &amp;#160;
+&amp;ndash;拆分字段字符串形成新的记录
 CREATE TABLE tb
 (
  spnumber INT,
@@ -90,21 +54,16 @@ syscolumns b
 SET ROWCOUNT 0 
 SELECT a.spnumber,">
 
+  
+  
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@gohugoio">
+    <meta name="twitter:title" content="SQL拆分字符串构成新的记录">
+    <meta name="twitter:description" content="原数据表的数据格式如下  要求将字段vernacular中用逗号”,”分隔的字符串单独取出，并且把相应行的spnumber也取出，最后形成一条新的记录。
+要求的结果如下 &amp;#160;
 
-<meta itemprop="datePublished" content="2009-05-12T01:18:14&#43;00:00" />
-<meta itemprop="dateModified" content="2009-05-12T01:18:14&#43;00:00" />
-<meta itemprop="wordCount" content="173">
-
-
-
-<meta itemprop="keywords" content="" />
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="SQL拆分字符串构成新的记录"/>
-<meta name="twitter:description" content="原数据表的数据格式如下  要求将字段vernacular中用逗号”,”分隔的字符串单独取出，并且把相应行的spnumber也取出，最后形成一条新的记录。
-要求的结果如下 &#160;
-
- 实现的SQL语句如下 &#160;
-&ndash;拆分字段字符串形成新的记录
+ 实现的SQL语句如下 &amp;#160;
+&amp;ndash;拆分字段字符串形成新的记录
 CREATE TABLE tb
 (
  spnumber INT,
@@ -126,66 +85,165 @@ INTO #t
 FROM syscolumns a,
 syscolumns b 
 SET ROWCOUNT 0 
-SELECT a.spnumber,"/>
+SELECT a.spnumber,">
+    <meta name="twitter:image" content="/images/avatar.png">
+  
 
-  </head>
+  
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="SQL拆分字符串构成新的记录">
+  <meta property="og:description" content="原数据表的数据格式如下  要求将字段vernacular中用逗号”,”分隔的字符串单独取出，并且把相应行的spnumber也取出，最后形成一条新的记录。
+要求的结果如下 &amp;#160;
 
-  <body class="ma0 avenir bg-near-white">
+ 实现的SQL语句如下 &amp;#160;
+&amp;ndash;拆分字段字符串形成新的记录
+CREATE TABLE tb
+(
+ spnumber INT,
+vernacular VARCHAR(1000)
+ ) 
 
+INSERT INTO tb
+SELECT SPNUMBER,
+ COMNAME
+FROM dbo.CommonName 
+ 
+
+DECLARE @i INT 
+SELECT @i = MAX(LEN(vernacular))
+FROM tb 
+SET ROWCOUNT @i 
+SELECT spnumber = IDENTITY( INT)
+INTO #t
+FROM syscolumns a,
+syscolumns b 
+SET ROWCOUNT 0 
+SELECT a.spnumber,">
+  <meta property="og:url" content="http://www.umbel.top/post/2009-05-12-sql%E6%8B%86%E5%88%86%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%9E%84%E6%88%90%E6%96%B0%E7%9A%84%E8%AE%B0%E5%BD%95/">
+  <meta property="og:image" content="/images/avatar.png">
+
+
+
+
+<meta name="generator" content="Hugo 0.54.0">
+
+
+<link rel="canonical" href="http://www.umbel.top/post/2009-05-12-sql%E6%8B%86%E5%88%86%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%9E%84%E6%88%90%E6%96%B0%E7%9A%84%E8%AE%B0%E5%BD%95/">
+
+<meta name="renderer" content="webkit">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="format-detection" content="telephone=no,email=no,adress=no">
+<meta http-equiv="Cache-Control" content="no-transform">
+
+
+<meta name="robots" content="index,follow">
+<meta name="referrer" content="origin-when-cross-origin">
+
+
+
+
+
+
+
+<meta name="theme-color" content="#02b875">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="My New Hugo Site">
+<meta name="msapplication-tooltip" content="My New Hugo Site">
+<meta name='msapplication-navbutton-color' content="#02b875">
+<meta name="msapplication-TileColor" content="#02b875">
+<meta name="msapplication-TileImage" content="/icons/icon-144x144.png">
+<link rel="icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="/icons/icon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/icons/icon-32x32.png">
+<link rel="icon" sizes="192x192" href="/icons/icon-192x192.png">
+<link rel="apple-touch-icon" href="/icons/icon-152x152.png">
+<link rel="manifest" href="/manifest.json">
+
+
+<link rel="preload" href="/styles/main-rendered.min.css" as="style">
+
+
+<link rel="preload" href="https://fonts.googleapis.com/css?family=Lobster" as="style">
+<link rel="preload" href="/images/avatar.png" as="image">
+<link rel="preload" href="/images/grey-prism.svg" as="image">
+
+
+<style>
+  body {
+    background: rgb(244, 243, 241) url('/images/grey-prism.svg') repeat fixed;
+  }
+</style>
+<link rel="stylesheet" href="/styles/main-rendered.min.css">
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.2/dist/medium-zoom.min.js"></script>
+
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/video.js@7.3.0/dist/video-js.min.css">
+
+
+
+  
+  
+<!--[if lte IE 8]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/videojs-ie8@1.1.2/dist/videojs-ie8.min.js"></script>
+<![endif]-->
+
+<!--[if lte IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/eligrey-classlist-js-polyfill@1.2.20180112/classList.min.js"></script>
+<![endif]-->
+
+
+</head>
+  <body>
+    <div class="suspension">
+      <a role="button" aria-label="Go to top" title="Go to top" class="to-top is-hide"><span class="icon icon-up" aria-hidden="true"></span></a>
+      
+        
+      
+    </div>
     
-   
+    
+  <header class="site-header">
+  <img class="avatar" src="/images/avatar.png" alt="Avatar">
   
-
-  <header>
-    <div class="bg-black">
-      <nav class="pv3 ph3 ph4-ns" role="navigation">
-  <div class="flex-l justify-between items-center center">
-    <a href="http://example.org/" class="f3 fw2 hover-white no-underline white-90 dib">
-      My New Hugo Site
-    </a>
-    <div class="flex-l items-center">
-      
-
-      
-      
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-  </div>
-</nav>
-
-    </div>
-  </header>
-
-
-
-    <main class="pb7" role="main">
-      
+  <h2 class="title">My New Hugo Site</h2>
   
-  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+  <p class="subtitle"></p>
+  <button class="menu-toggle" type="button" aria-label="Main Menu" aria-expanded="false" tab-index="0">
+    <span class="icon icon-menu" aria-hidden="true"></span>
+  </button>
 
-    <header class="mt4 w-100">
-      <p class="f6 b helvetica tracked">
-          
-        POSTS
-      </p>
-      <h1 class="f1 athelas mb1">SQL拆分字符串构成新的记录</h1>
-      
-      <time class="f6 mv4 dib tracked" datetime="2009-05-12T01:18:14Z">May 12, 2009</time>      
+  <nav class="site-menu collapsed">
+    <h2 class="offscreen">Main Menu</h2>
+    <ul class="menu-list">
       
       
+      
+      
+    </ul>
+  </nav>
+  <nav class="social-menu collapsed">
+    <h2 class="offscreen">Social Networks</h2>
+    <ul class="social-list"></ul>
+  </nav>
+</header>
+
+  <section class="main post-detail">
+    <header class="post-header">
+      <h1 class="post-title">SQL拆分字符串构成新的记录</h1>
+      <p class="post-meta">@ · May 12, 2009 · 1 min read</p>
     </header>
-
-    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p><h2>原数据表的数据格式如下</h2>  <p><a href="http://blog.cnpc.ac.cn/Blogs/image.axd?picture=WindowsLiveWriter/85be85719062/4013649D/20090512_011013.jpg"><img style="border-bottom: 0px; border-left: 0px; display: inline; border-top: 0px; border-right: 0px" title="2009-05-12_011013" border="0" alt="2009-05-12_011013" src="http://blog.cnpc.ac.cn/Blogs/image.axd?picture=WindowsLiveWriter/85be85719062/7684169F/20090512_011013_thumb.jpg" width="388" height="484" /></a> </p>  <p>要求将字段vernacular中用逗号”,”分隔的字符串单独取出，并且把相应行的spnumber也取出，最后形成一条新的记录。</p>  <h2>要求的结果如下</h2>  <p>&#160;</p>  <p></p>  <p><a href="http://blog.cnpc.ac.cn/Blogs/image.axd?picture=WindowsLiveWriter/85be85719062/48995498/20090512_011035.jpg"><img style="border-bottom: 0px; border-left: 0px; display: inline; border-top: 0px; border-right: 0px" title="2009-05-12_011035" border="0" alt="2009-05-12_011035" src="http://blog.cnpc.ac.cn/Blogs/image.axd?picture=WindowsLiveWriter/85be85719062/7F0A069A/20090512_011035_thumb.jpg" width="264" height="484" /></a> </p>  <h2>实现的SQL语句如下</h2>  <p>&#160;</p>  <div class="csharpcode">   <pre class="alt">&ndash;拆分字段字符串形成新的记录</pre></p>
+    <article class="post-content"><p><h2>原数据表的数据格式如下</h2>  <p><a href="http://blog.cnpc.ac.cn/Blogs/image.axd?picture=WindowsLiveWriter/85be85719062/4013649D/20090512_011013.jpg"><img style="border-bottom: 0px; border-left: 0px; display: inline; border-top: 0px; border-right: 0px" title="2009-05-12_011013" border="0" alt="2009-05-12_011013" src="http://blog.cnpc.ac.cn/Blogs/image.axd?picture=WindowsLiveWriter/85be85719062/7684169F/20090512_011013_thumb.jpg" width="388" height="484" /></a> </p>  <p>要求将字段vernacular中用逗号”,”分隔的字符串单独取出，并且把相应行的spnumber也取出，最后形成一条新的记录。</p>  <h2>要求的结果如下</h2>  <p>&#160;</p>  <p></p>  <p><a href="http://blog.cnpc.ac.cn/Blogs/image.axd?picture=WindowsLiveWriter/85be85719062/48995498/20090512_011035.jpg"><img style="border-bottom: 0px; border-left: 0px; display: inline; border-top: 0px; border-right: 0px" title="2009-05-12_011035" border="0" alt="2009-05-12_011035" src="http://blog.cnpc.ac.cn/Blogs/image.axd?picture=WindowsLiveWriter/85be85719062/7F0A069A/20090512_011035_thumb.jpg" width="264" height="484" /></a> </p>  <h2>实现的SQL语句如下</h2>  <p>&#160;</p>  <div class="csharpcode">   <pre class="alt">&ndash;拆分字段字符串形成新的记录</pre></p>
 
 <p><pre><span class="kwrd">CREATE</span>   <span class="kwrd">TABLE</span> tb</pre></p>
 
@@ -274,47 +332,78 @@ SELECT a.spnumber,"/>
     margin: 0em;
 }
 .csharpcode .lnum { color: #606060; }</style></p>
-<ul class="pa0">
-  
-</ul>
-<div class="mt6">
+</article>
+    <footer class="post-footer">
+      
+      <ul class="post-tags">
         
-      </div>
-    </section>
-
-    <aside class="w-30-l mt6-l">
-
-
-
-
-</aside>
-
-  </article>
-
-    </main>
-    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
-  <div class="flex justify-between">
-  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://example.org/" >
-    &copy; 2019 My New Hugo Site
-  </a>
-    <div>
-
-
-
-
-
-
-
-
-
-
-</div>
-  </div>
+      </ul>
+      
+      <p class="post-copyright">
+        This post was published <strong>3628</strong> days ago, content in the post may be inaccurate, even wrong now, please take risk yourself.
+      </p>
+    </footer>
+    
+      
+    
+  </section>
+  
+<footer class="site-footer">
+  <p>© 2017-2019 My New Hugo Site</p>
+  <p>Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> with theme <a href="https://github.com/laozhu/hugo-nuo" target="_blank" rel="noopener">Nuo</a>.</p>
+  
 </footer>
 
-    
 
-  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/smooth-scroll@15.0.0/dist/smooth-scroll.min.js"></script>
+
+
+
+<script async src="https://cdn.jsdelivr.net/npm/video.js@7.3.0/dist/video.min.js"></script>
+
+
+
+
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      displayMath: [['$$','$$'], ['\\[','\\]']],
+      processEscapes: true,
+      processEnvironments: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+      TeX: { equationNumbers: { autoNumber: "AMS" },
+      extensions: ["AMSmath.js", "AMSsymbols.js"] }
+    },
+  });
+</script>
+<script type="text/x-mathjax-config">
+  // Fix <code> tags after MathJax finishes running. This is a
+  // hack to overcome a shortcoming of Markdown. Discussion at
+  // https://github.com/mojombo/jekyll/issues/199
+  MathJax.Hub.Queue(() => {
+    MathJax.Hub.getAllJax().map(v => v.SourceElement().parentNode.className += ' has-jax');
+  });
+</script>
+
+
+
+<script src="/scripts/index.min.js"></script>
+
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('\/service-worker.js').then(function() {
+      console.log('[ServiceWorker] Registered');
+    });
+  }
+</script>
+
+
+
+
+
+
 
 
   </body>
