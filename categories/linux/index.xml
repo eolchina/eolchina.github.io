@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on My New Hugo Site</title>
+    <link>http://example.org/categories/linux/</link>
+    <description>Recent content in Linux on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 05 Sep 2009 22:23:37 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ruby开源资料</title>
+      <link>http://example.org/post/2009-09-05-ruby%E5%BC%80%E6%BA%90%E8%B5%84%E6%96%99/</link>
+      <pubDate>Sat, 05 Sep 2009 22:23:37 +0000</pubDate>
+      
+      <guid>http://example.org/post/2009-09-05-ruby%E5%BC%80%E6%BA%90%E8%B5%84%E6%96%99/</guid>
+      <description>&amp;nbsp;
+在Wiondows下使用Github工具&amp;nbsp;
+http://hi.baidu.com/mcspring/blog/item/171b1e38986d39fab211c71b.html&amp;nbsp;
+中国开源Ruby项目&amp;nbsp;
+http://www.openforge.cn/openruby/&amp;nbsp;</description>
+    </item>
+    
+    <item>
+      <title>泛生物地理学的概念和历史</title>
+      <link>http://example.org/post/2009-09-05-%E6%B3%9B%E7%94%9F%E7%89%A9%E5%9C%B0%E7%90%86%E5%AD%A6%E7%9A%84%E6%A6%82%E5%BF%B5%E5%92%8C%E5%8E%86%E5%8F%B2/</link>
+      <pubDate>Sat, 05 Sep 2009 22:16:30 +0000</pubDate>
+      
+      <guid>http://example.org/post/2009-09-05-%E6%B3%9B%E7%94%9F%E7%89%A9%E5%9C%B0%E7%90%86%E5%AD%A6%E7%9A%84%E6%A6%82%E5%BF%B5%E5%92%8C%E5%8E%86%E5%8F%B2/</guid>
+      <description>泛生物地理学最初由法籍意大利的学者Léon Croizat (1894-1982)提出。它通过对轨迹（tracks）确定，对这些轨迹的方向和式样分析的信息来分析类群的地理分布。它是生物地理学中的一种地图学方法，通过将研究类群或物种的地理分布作图，并用线条将间断分布的区域或采集地点进行连接形成轨迹。按照图像理论，轨迹等于最小生成树（通过最短的路径来连接相应的地点）。轨迹是对物种空间分布式样的刻画，它使我们能够进一步了解形成这种分布的空间过程。跨大洋、海洋盆地或任何大的板块结构的单个的轨迹组成基线（baseline）。
+
+图1、平胸鸟类（ratite birds）、南山毛榉（Nothofagus）和新西兰青蛙（Leiopelma）
+根据某些标准（比如：共有的基线shared baselines或轨迹几何形状是相容的compatible track geometries），单个的轨迹间可能是相互重叠的。那么这些相互重叠的轨迹叠加后的轨迹线我们称它为共有轨迹或标准轨迹（generalized or standard tracks）。共有轨迹表明有一个祖先生物区系曾经存在。这个祖先生物区系后来由于板块或气候的变化变得破碎化了。两个或更多个共有轨迹相互交叉的区域称为节点（node）。由于路块的碰撞，俯冲、缝合的结果，节点的存在意味着祖先生物区系和地质碎片在时空上的相互关联性。因此节点区域组成了一个具有复合型特征的区域。一个类群数量、遗传或形态多样性集中的区域称为集合区（main massing）。
+泛生物地理学的关键概念，如轨迹、基线和集合区，是非常有用的分析工具。特别体现在量化泛生物地理学发展所形成的数量化表达的应用上。这些发展是基于图形理论（graph theory）的概念和方法，例如：使用最小生成树（minimum spanning trees）来更严格的刻画单个的轨迹，小圈子分析（ clique analysis）来识别标准轨迹，节点分析来决定泛生物地理学节点的准确位置。
+泛生物地理学强调对类群分布点和大规模分布数据的分析，因此，泛生物地理学有可能从现代技术的发展和应用（比如：许多在线的生物多样性数据库和地标化的分布记录FishNet, HerpNet, MaNIS, OBIS, 全球定位系统、地理信息系统）中获得新的进展。而且，除了研究地球生命的历史关系的学术研究兴趣和科学的适用性，泛生物地理学的概念对全球生物多样性保护问题也能够起到积极的作用。
+在过去的20多年，泛生物地理学被新西兰和拉丁美洲的学者进一步发展，使它成为历史生物地理学中非常有影响力的研究思路。泛生物地理学提供了一种分析分布的地理（空间）结构，从而使我们可以对物种或其它类群的时空演化进行预测。
+为了解释间断分布， Croizat 提出了一种这样的生物地理学情景。他假定在一个“积极活动的期间”，某种祖先式样建立了它广泛分布的范围，随后是这种祖先式样不断形成新的式样。间断被解释为以前连续分布范围的绝灭现象。
+Croizat认为进化是时间、空间和形式的函数。虽然散布学派的研究者们否认Croizat 工作的价值和贡献，另外一些学者则认为他是现代比较生物学最有原创性思想的研究者。它的贡献为地球和生物学科的新综合建立了基础。
+参考文献：
+ Croizat, L. (1958). Panbiogeography. Caracas: Published by the author.  Croizat, L. (1964). Space, Time, Form: The Biological Synthesis. Caracas: Published by the author.  Croizat (1958)  Croizat (1964)  Craw, R.C., Grehan, J.R. &amp;amp; Heads, M.</description>
+    </item>
+    
+    <item>
+      <title>Ruby on Rails开源框架</title>
+      <link>http://example.org/post/2009-09-05-ruby-on-rails%E5%BC%80%E6%BA%90%E6%A1%86%E6%9E%B6/</link>
+      <pubDate>Sat, 05 Sep 2009 21:59:41 +0000</pubDate>
+      
+      <guid>http://example.org/post/2009-09-05-ruby-on-rails%E5%BC%80%E6%BA%90%E6%A1%86%E6%9E%B6/</guid>
+      <description>&amp;nbsp;&amp;nbsp;
+ Ruby on Rails介绍（中国开源项目）  Ruby on Rails，也称 RoR 或简称 Rails，是一个使用Ruby语言写的开源网络应用 框架，它是严格按照MVC结构开发的。它努力使自身保持简单，来使实际的应用开发时的代码更少，使用最少的配置。
+Rails的设计原则包括“不要重复自己”（Don’t Repeat Yourself）和“约定胜于配置”（Convention Over Configuration）
+Ruby on Rails介绍
+Ruby on Rails是一种结合Ruby语言与Rails平台的一种网页编程语言，Ruby语言以自然、简洁、快速著称，全面支援面向对象程序设计，而Rails则是Ruby广泛应用方式之一，在Rails平台上设计出一套独特的MVC开发架构，采取模型（Model）、视图（View）、控制器（Controller）分离的开发方式，不但减少了开发中的问题，更简化了许多繁复的动作。
+历史
+于2004年7月，Rails 的创始人David Heinemeier Hanson从 37signals 公司的项目管理工具 Basecamp 里面分离出 Ruby on Rails，并且以开源方式发布。 Rails在发布以后的短短的时间内就迅速获得很多开发人员欢迎，David 认为这归功于Rails设计为 opinionated software。Rails 当中有很多规矩从一开始就按照David的意见制定好了，所以在Rails上开发应用程序时，开发人员可以专注于应用程序自身的设计，省却那些花在了解及配置基础框架上面的时间。这也正是Rails很重要的精神“惯例优于配置”（Convention over Configuration），开发人员遵照Rails本身的惯例便可以省却配置组态档的时间；此外，Rails虽然强调惯例的重要及便利性，但针对不同的需求，Rails也提供修改的空间让开发人员可以进行自订的组态。
+Rails的运作模式
+Rails框架是以固定的命名习惯来自动判断整个架构，默认下会将网址分析成 http://domain-name/ControllerName/ActionName/Attribute/ 然后执行目标Controller中的Action，并取出指定的View（视图）回传给浏览器显示。</description>
+    </item>
+    
+    <item>
+      <title>生活小感</title>
+      <link>http://example.org/post/2009-09-05-%E7%94%9F%E6%B4%BB%E5%B0%8F%E6%84%9F/</link>
+      <pubDate>Sat, 05 Sep 2009 12:21:05 +0000</pubDate>
+      
+      <guid>http://example.org/post/2009-09-05-%E7%94%9F%E6%B4%BB%E5%B0%8F%E6%84%9F/</guid>
+      <description>年龄的增长越发的让人怀疑生活的方向，怀疑生存的意义，怀疑曾经的理想和追求。年龄越大越世故。</description>
+    </item>
+    
+    <item>
+      <title>最完整的世界数字地图刚刚发布</title>
+      <link>http://example.org/post/2009-07-02-%E6%9C%80%E5%AE%8C%E6%95%B4%E7%9A%84%E4%B8%96%E7%95%8C%E6%95%B0%E5%AD%97%E5%9C%B0%E5%9B%BE%E5%88%9A%E5%88%9A%E5%8F%91%E5%B8%83/</link>
+      <pubDate>Thu, 02 Jul 2009 11:21:58 +0000</pubDate>
+      
+      <guid>http://example.org/post/2009-07-02-%E6%9C%80%E5%AE%8C%E6%95%B4%E7%9A%84%E4%B8%96%E7%95%8C%E6%95%B0%E5%AD%97%E5%9C%B0%E5%9B%BE%E5%88%9A%E5%88%9A%E5%8F%91%E5%B8%83/</guid>
+      <description>喜马拉雅山区不丹地区的冰川
+&amp;#160;
+This image was created by processing and stereo-correlating the 1.3 million-scene ASTER archive of optical images. &amp;#8250; Full image and caption/related images PASADENA, Calif. - NASA and Japan released a new digital topographic map of Earth Monday that covers more of our planet than ever before. The map was produced with detailed measurements from NASA&#39;s Terra spacecraft. The new global digital elevation model of Earth was created from nearly 1.</description>
+    </item>
+    
+    <item>
+      <title>推荐两部生物地理学新书</title>
+      <link>http://example.org/post/2009-06-28-%E6%8E%A8%E8%8D%90%E4%B8%A4%E9%83%A8%E7%94%9F%E7%89%A9%E5%9C%B0%E7%90%86%E5%AD%A6%E6%96%B0%E4%B9%A6/</link>
+      <pubDate>Sun, 28 Jun 2009 15:23:28 +0000</pubDate>
+      
+      <guid>http://example.org/post/2009-06-28-%E6%8E%A8%E8%8D%90%E4%B8%A4%E9%83%A8%E7%94%9F%E7%89%A9%E5%9C%B0%E7%90%86%E5%AD%A6%E6%96%B0%E4%B9%A6/</guid>
+      <description> 进化生物地理学：整合方法的案例研究    http://www.amazon.com/Evolutionary-Biogeography-Integrative-Approach-Studies/dp/0231143788/ref=pd_sim_b_1#reader   页数： 304 页  出版社和时间: Columbia University Press (December 3, 2008)  源文档 &amp;lt;http://www.amazon.com/Evolutionary-Biogeography-Integrative-Approach-Studies/dp/0231143788/ref=pd_sim_b_1&amp;gt; 书评和内容简介  &amp;ldquo;进化生物地理学这本书在覆盖面和知识深度上超过了目前为止的其它生物地理学教科书，它是生物地理学研究中卓越的贡献。&amp;rdquo;  &amp;ndash;John Robert Grehan, Buffalo Museum of Science  作者Juan J. Morrone不仅仅是局限于单一性方法，而是对进化生物地理学的广泛发展、理论进行了全面的阐述。进化生物地理学使用分布、系统发育、分子和化石数据来评估产生目前生物格局的历史变化。泛生物地理学、特有性的简约性分析、分支生物地理学和谱系生物地理学是最近才出现的新方法。许多研究者认为它们代表着不同的研究阵营，但是本书的作者则想我们展示了在进化生物地理学分析中，它们是如何在不同的研究步骤中提出问题并应用相应的方法进行解决的。泛生物地理学和特有性的简约性分析在识别生物学成分或特有地区是时是非常有用的。分支生物地理学使用系统发育的数据来决定这些生物成分间的关系。化石、谱系格局和分子钟证据可以整合进来用于识别cenocrons。最后，已知的地质学知识能够帮助我们建立地理生物相互关系的背景，来解释所分析地区间的相互关系以及生物学成分和cenocrons在该地区是如何演化的。作者比较了这些生物地理学的方法，使用了案例研究来说明如何使用这些方法来回答相关的问题。  源文档 &amp;lt;http://www.amazon.com/Evolutionary-Biogeography-Integrative-Approach-Studies/dp/0231143788/ref=pd_sim_b_1&amp;gt; 系统学和生物地理学基础     http://www.amazon.com/Foundations-Systematics-Biogeography-David-Williams/dp/0387727280/ref=pd_bxgy_b_text_c/179-7318701-5678419#reader  书评：  使用历史性的方法，伦敦自然历史博物馆的Williams和Ebach (Freie Universit&amp;auml;t, Berlin)阐明了系统学家哲学理论的差异性。本书的作者对许多现存的系统学和生物地理学概念和解释提出类非常激烈的讨论。他们的目的是激发系统发育和生物地理学研究者对研究理论基础和实践的深刻反思和讨论。 内容简介  本书主要聚焦在一些系统学和生物地理学原创性研究思想的形成和发展。通过收集和整理Goethe, Agassiz, Geoffroy St. Hilaire, Owen, Naef, Zangerl和Nelson等著名学者的经典文学，它追溯了自19世纪以来同源性、分类等相关概念的发展。另外，作者还对目前比较生物学的研究趋势和现状进行了质疑，尤其是对这门学科的定位和研究目的。为了提醒将来的研究者，作者专门强调了系统学和生物地理学三个方面的知识缺陷：生物分类和它的机制性解释是相互分离的；许多同源性的概念是前达尔文时期的概念；所有比较生物学的基础是关系的概念，相似性和谱系发生假说对比较生物学研究都不是完全的认识。 </description>
+    </item>
+    
+    <item>
+      <title>分类群名称处理器项目taxon-name-processing</title>
+      <link>http://example.org/post/2009-06-25-%E5%88%86%E7%B1%BB%E7%BE%A4%E5%90%8D%E7%A7%B0%E5%A4%84%E7%90%86%E5%99%A8%E9%A1%B9%E7%9B%AEtaxon-name-processing/</link>
+      <pubDate>Thu, 25 Jun 2009 01:02:35 +0000</pubDate>
+      
+      <guid>http://example.org/post/2009-06-25-%E5%88%86%E7%B1%BB%E7%BE%A4%E5%90%8D%E7%A7%B0%E5%A4%84%E7%90%86%E5%99%A8%E9%A1%B9%E7%9B%AEtaxon-name-processing/</guid>
+      <description>由生命大百科全书网络Encyclopedia of Life和全球生物多样性咨询Global Biodiversity Information Facility两大组织支持发起的处理分类群名称的技术性项目现在在Google Code上建立了项目的工作平台。主要目的是提供出来分类学名称数据的捕获、加工和处理的工具、网络服务、技术术语、测试数据和文档等资源。
+项目的地址：http://code.google.com/p/taxon-name-processing/</description>
+    </item>
+    
+    <item>
+      <title>地中海气候带生物区系的起源和演化整合性研究的展望</title>
+      <link>http://example.org/post/2009-06-24-%E5%9C%B0%E4%B8%AD%E6%B5%B7%E6%B0%94%E5%80%99%E5%B8%A6%E7%94%9F%E7%89%A9%E5%8C%BA%E7%B3%BB%E7%9A%84%E8%B5%B7%E6%BA%90%E5%92%8C%E6%BC%94%E5%8C%96%E6%95%B4%E5%90%88%E6%80%A7%E7%A0%94%E7%A9%B6%E7%9A%84%E5%B1%95%E6%9C%9B/</link>
+      <pubDate>Wed, 24 Jun 2009 16:06:05 +0000</pubDate>
+      
+      <guid>http://example.org/post/2009-06-24-%E5%9C%B0%E4%B8%AD%E6%B5%B7%E6%B0%94%E5%80%99%E5%B8%A6%E7%94%9F%E7%89%A9%E5%8C%BA%E7%B3%BB%E7%9A%84%E8%B5%B7%E6%BA%90%E5%92%8C%E6%BC%94%E5%8C%96%E6%95%B4%E5%90%88%E6%80%A7%E7%A0%94%E7%A9%B6%E7%9A%84%E5%B1%95%E6%9C%9B/</guid>
+      <description>该会议由瑞士苏黎世大学主办，主要目的是来讨论在多学科手段综合研究框架下，如何认识和了解世界5个地中海式气候区域（地中海盆地、南非、澳大利亚、智利和加利福尼亚）的生物多样性问题。因为这些地区不仅仅因为它们相对独特的气候特征，而且也是世界生物多样性的重要热点地区。出席会议的有150多名与会者，他们来自18个国家，包括欧洲，美洲和澳大利亚. 这次会议的主题内容分为四个主要部分组成：方法、大进化、小进化和生态。通过整合多学科，包括进化生物学，系统学，生态学，古生物学，古气候和古地理学的证据，与会者共同探讨了的地中海式气候条件下生物多样性的产生和演化过程等问题。会议的详细内容可以通过http://www.systbot.unizh.ch/static/mediterranean来了解。包括大会方案，摘要， PDF文件和地中海区系的典型植物和景观图片等。 为此会议的总结，Journal of Biogeography与今年专辑刊登了相关的学术论文共15篇。 </description>
+    </item>
+    
+    <item>
+      <title>生物多样性信息学参考文献</title>
+      <link>http://example.org/post/2009-05-14-%E7%94%9F%E7%89%A9%E5%A4%9A%E6%A0%B7%E6%80%A7%E4%BF%A1%E6%81%AF%E5%AD%A6%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE/</link>
+      <pubDate>Thu, 14 May 2009 18:08:41 +0000</pubDate>
+      
+      <guid>http://example.org/post/2009-05-14-%E7%94%9F%E7%89%A9%E5%A4%9A%E6%A0%B7%E6%80%A7%E4%BF%A1%E6%81%AF%E5%AD%A6%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE/</guid>
+      <description>网站地址: http://www.taxondata.org/referencias/
+一个非常有用的关于生物多样性信息学参考文献的网站，网站上面提供了直接导入EndNote等文献管理工具的方法
+ 快速的将这些重要文献收归到自己的文献数据库</description>
+    </item>
+    
+    <item>
+      <title>奇怪的问题</title>
+      <link>http://example.org/post/2009-05-14-%E5%A5%87%E6%80%AA%E7%9A%84%E9%97%AE%E9%A2%98/</link>
+      <pubDate>Thu, 14 May 2009 14:54:05 +0000</pubDate>
+      
+      <guid>http://example.org/post/2009-05-14-%E5%A5%87%E6%80%AA%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
+      <description>这几天电脑老是出现这样的问题，怎么回事啊？</description>
+    </item>
+    
+    <item>
+      <title>SQL拆分字符串构成新的记录</title>
+      <link>http://example.org/post/2009-05-12-sql%E6%8B%86%E5%88%86%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%9E%84%E6%88%90%E6%96%B0%E7%9A%84%E8%AE%B0%E5%BD%95/</link>
+      <pubDate>Tue, 12 May 2009 01:18:14 +0000</pubDate>
+      
+      <guid>http://example.org/post/2009-05-12-sql%E6%8B%86%E5%88%86%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%9E%84%E6%88%90%E6%96%B0%E7%9A%84%E8%AE%B0%E5%BD%95/</guid>
+      <description>原数据表的数据格式如下  要求将字段vernacular中用逗号”,”分隔的字符串单独取出，并且把相应行的spnumber也取出，最后形成一条新的记录。
+要求的结果如下 &amp;#160;
+
+ 实现的SQL语句如下 &amp;#160;
+&amp;ndash;拆分字段字符串形成新的记录
+CREATE TABLE tb
+(
+ spnumber INT,
+vernacular VARCHAR(1000)
+ ) 
+
+INSERT INTO tb
+SELECT SPNUMBER,
+ COMNAME
+FROM dbo.CommonName 
+ 
+
+DECLARE @i INT 
+SELECT @i = MAX(LEN(vernacular))
+FROM tb 
+SET ROWCOUNT @i 
+SELECT spnumber = IDENTITY( INT)
+INTO #t
+FROM syscolumns a,
+syscolumns b 
+SET ROWCOUNT 0 
+SELECT a.spnumber,</description>
+    </item>
+    
+    <item>
+      <title>中文和数字字符串组合的拆分方法</title>
+      <link>http://example.org/post/2009-05-11-%E4%B8%AD%E6%96%87%E5%92%8C%E6%95%B0%E5%AD%97%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%BB%84%E5%90%88%E7%9A%84%E6%8B%86%E5%88%86%E6%96%B9%E6%B3%95/</link>
+      <pubDate>Mon, 11 May 2009 17:51:00 +0000</pubDate>
+      
+      <guid>http://example.org/post/2009-05-11-%E4%B8%AD%E6%96%87%E5%92%8C%E6%95%B0%E5%AD%97%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%BB%84%E5%90%88%E7%9A%84%E6%8B%86%E5%88%86%E6%96%B9%E6%B3%95/</guid>
+      <description>数据表的结构和需要的结果  表中的VernacularAll字段包括中文和字符组合的字符串，需要得到的结果是将两者拆分到不同的字段Vernacular和Page。
+SQL语句如下 &amp;#160;
+&amp;ndash;将字段VernacularAll左边的中文字符串取出
+&amp;#160;
+UPDATE dbo.FRPSNames
+SET Vernacular = LEFT(VernacularAll,
+PATINDEX(&amp;rsquo;%[1-9]%&amp;rsquo;, VernacularAll) - 1)
+ 
+&amp;ndash;将字段VernacularAll右边的数字字符串取出
+ 
+UPDATE dbo.FRPSNames
+SET Page = RIGHT(VernacularAll,
+LEN(VernacularAll) - PATINDEX(&amp;rsquo;%[1-9]%&amp;rsquo;, VernacularAll)
+ + 1)   .csharpcode, .csharpcode pre { font-size: small; color: black; font-family: consolas, &amp;ldquo;Courier New&amp;rdquo;, courier, monospace; background-color: #ffffff; /white-space: pre;/ } .csharpcode pre { margin: 0em; } .csharpcode .rem { color: #008000; } .csharpcode .kwrd { color: #0000ff; } .</description>
+    </item>
+    
+  </channel>
+</rss>

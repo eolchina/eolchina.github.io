@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>My New Hugo Site </title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.54.0" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.955516233bcafa4d2a1c13cea63c7b50.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+      <link href="http://example.org/index.xml" rel="alternate" type="application/rss+xml" title="My New Hugo Site" />
+      <link href="http://example.org/index.xml" rel="feed" type="application/rss+xml" title="My New Hugo Site" />
+    
+
+    <meta property="og:title" content="My New Hugo Site" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://example.org/" />
+
+<meta property="og:updated_time" content="2019-03-31T21:06:09&#43;00:00"/>
+
+<meta itemprop="name" content="My New Hugo Site">
+<meta itemprop="description" content="">
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="My New Hugo Site"/>
+<meta name="twitter:description" content=""/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+
+  <header>
+    <div class="pb3-m pb6-l bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="http://example.org/" class="f3 fw2 hover-white no-underline white-90 dib">
+      My New Hugo Site
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv3 ph3 ph4-ns">
+        <h1 class="f2 f-subheadline-l fw2 light-silver mb0 lh-title">
+          My New Hugo Site
+        </h1>
+        
+      </div>
+    </div>
+  </header>
+
+
+    <main class="pb7" role="main">
+      
+  <article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
+    
+  </article>
+  
+  
+  
+  
+  
+  
+  
+    
+    
+
+    <div class="pa3 pa4-ns w-100 w-70-ns center">
+      
+       
+          <h1 class="flex-none">
+            Recent Posts
+          </h1>
+        
+
+      
+
+      <section class="w-100 mw8">
+        
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="/post/landsat8%E6%A4%8D%E8%A2%AB%E8%A6%86%E7%9B%96%E5%BA%A6%E9%81%A5%E6%84%9F%E4%BC%B0%E7%AE%97/" class="color-inherit dim link">
+            LandSat8植被覆盖度遥感估算
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          植被覆盖度是指植被(包括叶、茎、枝)在地面的垂直投影面积占统计区总面积的百分比。容易与植被覆盖度混淆的概念是植被盖度
+ 植被覆盖度是指单位面积内植被地上部分的 垂直投影面积所占的百分比值。植被覆盖度指示 了植被的茂密程度及植物进行光合作用面积的大 小，是一个反映地表植被群落生长态势的综合量化指标。
+ 植被盖度是指植被冠层或叶面在地面的垂直投影面积占植被区总面积的比例。两个概念主要区别就是分母不一样。植被覆盖度常用于植被变化、生态环境研究、水土保持、气候等方面
+植被覆盖度的测量可分为地面测量和遥感估算两种方法。地面测量常用于田间尺度，遥感估算常用于区域尺度。
+遥感估算模型 目前已经发展了很多利用遥感测量植被覆盖度的方法，较为实用的方法是利用植被指数近似估算植被覆盖度，常用的植被指数为NDVI。下面是李苗苗等在像元二分模型的基础上研究的模型：
+ 像元二分模型的基本原理是：假设每个像元都可分解为纯植被和纯土壤两个部分，所得的光谱信息（如NDVI，值为NNDVI ）也即是两种纯组分的以面积比例加权的线性组合（公式 A）；其中，纯植被所占的面积百分比即为研究区的植被覆盖度 （公式B）。具体可表示为：
+ NNDVI = NNDVIsoil ·  (1-fveg) + N  · fveg (A)
+fveg =（NNDVI - NNDVIsoil ）/（NNDVI - NNDVIveg ） (B)
+ 像元二分模型的应用关键是如何确定NNDVIsoil和NNDVIveg的值。对于纯裸地像元，NNDVIsoil理论上应 该是一个接近 0 的值，且不随时间的变化而变化。
+但现实中由于大气条件、地表湿度以及太阳光照条件等是在不断变化，区域上的NNDVIsoil并不是一个定值。 一般来说，它在-0.1~0.2 之间变化。
+对于纯植被像元来说，不同季节植被有春夏秋冬的季相变化，不同地区植被有不同类型和构成，这种 植被类型及其构成、植被生长的季相变化都会造 成NNDVIveg的时空变异。以目视、依靠色调标志来判断纯净像元的方法会因为个体差异而导致较大判别误差，因此该方法在一般的工程性、业务性的监测中需要特别注意。
+ VFC = (NDVI - NDVIsoil)/ (NDVIveg - NDVIsoil) (1)   其中, NDVIsoil为完全是裸土或无植被覆盖区域的NDVI值
+NDVIveg则代表完全被植被所覆盖的像元的NDVI值，即纯植被像元的NDVI值。
+两个值的计算公式为：
+ NDVIsoil=(VFCmax*NDVImin- VFCmin*NDVImax)/( VFCmax- VFCmin) (2) NDVIveg=((1-VFCmin)*NDVImax- (1-VFCmax)*NDVImin)/( VFCmax- VFCmin) (3)   利用这个模型计算植被覆盖度的关键是计算NDVIsoil和NDVIveg。这里有两种假设：
+        </div>
+          <a href="/post/landsat8%E6%A4%8D%E8%A2%AB%E8%A6%86%E7%9B%96%E5%BA%A6%E9%81%A5%E6%84%9F%E4%BC%B0%E7%AE%97/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="/post/hexo-theme-beantech/" class="color-inherit dim link">
+            [Hexo] Theme BeanTech
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          Ported Theme of Hux Blog, Thank Huxpro for designing such a flawless theme.
+This BeanTech theme created by YuHsuan modified from the original Porter Kaijun
+ Live Demo Usage I publish the whole project for your convenience, so you can just follow the instruction down below, then you can easily customiz your own blog!
+Let&rsquo;s begin!!!
+Init git clone https://github.com/YenYuHsuan/hexo-theme-beantech.git ./hexo-beantech cd hexo-beantech npm install  Modify Modify _config.
+        </div>
+          <a href="/post/hexo-theme-beantech/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="/post/2009-09-05-ruby%E5%BC%80%E6%BA%90%E8%B5%84%E6%96%99/" class="color-inherit dim link">
+            Ruby开源资料
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          &nbsp;
+在Wiondows下使用Github工具&nbsp;
+http://hi.baidu.com/mcspring/blog/item/171b1e38986d39fab211c71b.html&nbsp;
+中国开源Ruby项目&nbsp;
+http://www.openforge.cn/openruby/&nbsp;
+        </div>
+          <a href="/post/2009-09-05-ruby%E5%BC%80%E6%BA%90%E8%B5%84%E6%96%99/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+      </section>
+
+      
+      <section class="w-100">
+        <h1 class="f3">More</h1>
+        
+        
+          <h2 class="f5 fw4 mb4 dib mr3">
+            <a href="/post/2009-09-05-%E6%B3%9B%E7%94%9F%E7%89%A9%E5%9C%B0%E7%90%86%E5%AD%A6%E7%9A%84%E6%A6%82%E5%BF%B5%E5%92%8C%E5%8E%86%E5%8F%B2/" class="link black dim">
+              泛生物地理学的概念和历史
+            </a>
+          </h2>
+        
+          <h2 class="f5 fw4 mb4 dib mr3">
+            <a href="/post/2009-09-05-ruby-on-rails%E5%BC%80%E6%BA%90%E6%A1%86%E6%9E%B6/" class="link black dim">
+              Ruby on Rails开源框架
+            </a>
+          </h2>
+        
+          <h2 class="f5 fw4 mb4 dib mr3">
+            <a href="/post/2009-09-05-%E7%94%9F%E6%B4%BB%E5%B0%8F%E6%84%9F/" class="link black dim">
+              生活小感
+            </a>
+          </h2>
+        
+          <h2 class="f5 fw4 mb4 dib mr3">
+            <a href="/post/2009-07-02-%E6%9C%80%E5%AE%8C%E6%95%B4%E7%9A%84%E4%B8%96%E7%95%8C%E6%95%B0%E5%AD%97%E5%9C%B0%E5%9B%BE%E5%88%9A%E5%88%9A%E5%8F%91%E5%B8%83/" class="link black dim">
+              最完整的世界数字地图刚刚发布
+            </a>
+          </h2>
+        
+
+        
+        
+          <a href="/post/" class="link db f6 pa2 br3 bg-mid-gray white dim w4 tc">All Posts</a>
+        
+        </section>
+      
+
+      </div>
+  
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://example.org/" >
+    &copy; 2019 My New Hugo Site
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>

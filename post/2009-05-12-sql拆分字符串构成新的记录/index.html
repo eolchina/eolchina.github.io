@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>My New Hugo Site  | SQL拆分字符串构成新的记录</title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.54.0" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.955516233bcafa4d2a1c13cea63c7b50.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+
+    <meta property="og:title" content="SQL拆分字符串构成新的记录" />
+<meta property="og:description" content="原数据表的数据格式如下  要求将字段vernacular中用逗号”,”分隔的字符串单独取出，并且把相应行的spnumber也取出，最后形成一条新的记录。
+要求的结果如下 &#160;
+
+ 实现的SQL语句如下 &#160;
+&ndash;拆分字段字符串形成新的记录
+CREATE TABLE tb
+(
+ spnumber INT,
+vernacular VARCHAR(1000)
+ ) 
+
+INSERT INTO tb
+SELECT SPNUMBER,
+ COMNAME
+FROM dbo.CommonName 
+ 
+
+DECLARE @i INT 
+SELECT @i = MAX(LEN(vernacular))
+FROM tb 
+SET ROWCOUNT @i 
+SELECT spnumber = IDENTITY( INT)
+INTO #t
+FROM syscolumns a,
+syscolumns b 
+SET ROWCOUNT 0 
+SELECT a.spnumber," />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/post/2009-05-12-sql%E6%8B%86%E5%88%86%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%9E%84%E6%88%90%E6%96%B0%E7%9A%84%E8%AE%B0%E5%BD%95/" />
+<meta property="article:published_time" content="2009-05-12T01:18:14&#43;00:00"/>
+<meta property="article:modified_time" content="2009-05-12T01:18:14&#43;00:00"/>
+
+<meta itemprop="name" content="SQL拆分字符串构成新的记录">
+<meta itemprop="description" content="原数据表的数据格式如下  要求将字段vernacular中用逗号”,”分隔的字符串单独取出，并且把相应行的spnumber也取出，最后形成一条新的记录。
+要求的结果如下 &#160;
+
+ 实现的SQL语句如下 &#160;
+&ndash;拆分字段字符串形成新的记录
+CREATE TABLE tb
+(
+ spnumber INT,
+vernacular VARCHAR(1000)
+ ) 
+
+INSERT INTO tb
+SELECT SPNUMBER,
+ COMNAME
+FROM dbo.CommonName 
+ 
+
+DECLARE @i INT 
+SELECT @i = MAX(LEN(vernacular))
+FROM tb 
+SET ROWCOUNT @i 
+SELECT spnumber = IDENTITY( INT)
+INTO #t
+FROM syscolumns a,
+syscolumns b 
+SET ROWCOUNT 0 
+SELECT a.spnumber,">
+
+
+<meta itemprop="datePublished" content="2009-05-12T01:18:14&#43;00:00" />
+<meta itemprop="dateModified" content="2009-05-12T01:18:14&#43;00:00" />
+<meta itemprop="wordCount" content="173">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="SQL拆分字符串构成新的记录"/>
+<meta name="twitter:description" content="原数据表的数据格式如下  要求将字段vernacular中用逗号”,”分隔的字符串单独取出，并且把相应行的spnumber也取出，最后形成一条新的记录。
+要求的结果如下 &#160;
+
+ 实现的SQL语句如下 &#160;
+&ndash;拆分字段字符串形成新的记录
+CREATE TABLE tb
+(
+ spnumber INT,
+vernacular VARCHAR(1000)
+ ) 
+
+INSERT INTO tb
+SELECT SPNUMBER,
+ COMNAME
+FROM dbo.CommonName 
+ 
+
+DECLARE @i INT 
+SELECT @i = MAX(LEN(vernacular))
+FROM tb 
+SET ROWCOUNT @i 
+SELECT spnumber = IDENTITY( INT)
+INTO #t
+FROM syscolumns a,
+syscolumns b 
+SET ROWCOUNT 0 
+SELECT a.spnumber,"/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="http://example.org/" class="f3 fw2 hover-white no-underline white-90 dib">
+      My New Hugo Site
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">SQL拆分字符串构成新的记录</h1>
+      
+      <time class="f6 mv4 dib tracked" datetime="2009-05-12T01:18:14Z">May 12, 2009</time>      
+      
+      
+    </header>
+
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p><h2>原数据表的数据格式如下</h2>  <p><a href="http://blog.cnpc.ac.cn/Blogs/image.axd?picture=WindowsLiveWriter/85be85719062/4013649D/20090512_011013.jpg"><img style="border-bottom: 0px; border-left: 0px; display: inline; border-top: 0px; border-right: 0px" title="2009-05-12_011013" border="0" alt="2009-05-12_011013" src="http://blog.cnpc.ac.cn/Blogs/image.axd?picture=WindowsLiveWriter/85be85719062/7684169F/20090512_011013_thumb.jpg" width="388" height="484" /></a> </p>  <p>要求将字段vernacular中用逗号”,”分隔的字符串单独取出，并且把相应行的spnumber也取出，最后形成一条新的记录。</p>  <h2>要求的结果如下</h2>  <p>&#160;</p>  <p></p>  <p><a href="http://blog.cnpc.ac.cn/Blogs/image.axd?picture=WindowsLiveWriter/85be85719062/48995498/20090512_011035.jpg"><img style="border-bottom: 0px; border-left: 0px; display: inline; border-top: 0px; border-right: 0px" title="2009-05-12_011035" border="0" alt="2009-05-12_011035" src="http://blog.cnpc.ac.cn/Blogs/image.axd?picture=WindowsLiveWriter/85be85719062/7F0A069A/20090512_011035_thumb.jpg" width="264" height="484" /></a> </p>  <h2>实现的SQL语句如下</h2>  <p>&#160;</p>  <div class="csharpcode">   <pre class="alt">&ndash;拆分字段字符串形成新的记录</pre></p>
+
+<p><pre><span class="kwrd">CREATE</span>   <span class="kwrd">TABLE</span> tb</pre></p>
+
+<p><pre class="alt">    (</pre></p>
+
+<p><pre>      spnumber <span class="kwrd">INT</span>,</pre></p>
+
+<p><pre class="alt">      vernacular <span class="kwrd">VARCHAR</span>(1000)</pre></p>
+
+<p><pre>    )   </pre></p>
+
+<p><pre class="alt">    </pre></p>
+
+<p><pre>INSERT  <span class="kwrd">INTO</span> tb</pre></p>
+
+<p><pre class="alt">        <span class="kwrd">SELECT</span>  SPNUMBER,</pre></p>
+
+<p><pre>                COMNAME</pre></p>
+
+<p><pre class="alt">        <span class="kwrd">FROM</span>    dbo.CommonName       </pre></p>
+
+<p><pre>    </pre></p>
+
+<p><pre class="alt">    </pre></p>
+
+<p><pre><span class="kwrd">DECLARE</span> @i <span class="kwrd">INT</span>   </pre></p>
+
+<p><pre class="alt"><span class="kwrd">SELECT</span>  @i = <span class="kwrd">MAX</span>(LEN(vernacular))</pre></p>
+
+<p><pre><span class="kwrd">FROM</span>    tb     </pre></p>
+
+<p><pre class="alt"><span class="kwrd">SET</span> <span class="kwrd">ROWCOUNT</span> @i   </pre></p>
+
+<p><pre><span class="kwrd">SELECT</span>  spnumber = <span class="kwrd">IDENTITY</span>( <span class="kwrd">INT</span>)</pre></p>
+
+<p><pre class="alt"><span class="kwrd">INTO</span>    #t</pre></p>
+
+<p><pre><span class="kwrd">FROM</span>    syscolumns a,</pre></p>
+
+<p><pre class="alt">        syscolumns b   </pre></p>
+
+<p><pre><span class="kwrd">SET</span> <span class="kwrd">ROWCOUNT</span> 0   </pre></p>
+
+<p><pre class="alt"><span class="kwrd">SELECT</span>  a.spnumber,</pre></p>
+
+<p><pre>        vernacular = <span class="kwrd">SUBSTRING</span>(a.vernacular, b.spnumber,</pre></p>
+
+<p><pre class="alt">                               CHARINDEX(<span class="str">&rsquo;,&rsquo;</span>, a.vernacular + <span class="str">&rsquo;,&rsquo;</span>, b.spnumber)</pre></p>
+
+<p><pre>                               - b.spnumber)</pre></p>
+
+<p><pre class="alt"><span class="kwrd">FROM</span>    tb a,</pre></p>
+
+<p><pre>        #t b</pre></p>
+
+<p><pre class="alt"><span class="kwrd">WHERE</span>   <span class="kwrd">SUBSTRING</span>(<span class="str">&rsquo;,&rsquo;</span> + a.vernacular, b.spnumber, 1) = <span class="str">&rsquo;,&rsquo;</span></pre></p>
+
+<p><pre><span class="kwrd">ORDER</span>   <span class="kwrd">BY</span> a.spnumber   </pre></p>
+
+<p><pre class="alt"><span class="kwrd">DROP</span> <span class="kwrd">TABLE</span>   #t   </pre></p>
+
+<p><pre>  <span class="kwrd">go</span>   </pre>
+</div>
+<style type="text/css">
+.csharpcode, .csharpcode pre
+{
+    font-size: small;
+    color: black;
+    font-family: consolas, &ldquo;Courier New&rdquo;, courier, monospace;
+    background-color: #ffffff;
+    /<em>white-space: pre;</em>/
+}
+.csharpcode pre { margin: 0em; }
+.csharpcode .rem { color: #008000; }
+.csharpcode .kwrd { color: #0000ff; }
+.csharpcode .str { color: #006080; }
+.csharpcode .op { color: #0000c0; }
+.csharpcode .preproc { color: #cc6633; }
+.csharpcode .asp { background-color: #ffff00; }
+.csharpcode .html { color: #800000; }
+.csharpcode .attr { color: #ff0000; }
+.csharpcode .alt
+{
+    background-color: #f4f4f4;
+    width: 100%;
+    margin: 0em;
+}
+.csharpcode .lnum { color: #606060; }</style></p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6">
+        
+      </div>
+    </section>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://example.org/" >
+    &copy; 2019 My New Hugo Site
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>
