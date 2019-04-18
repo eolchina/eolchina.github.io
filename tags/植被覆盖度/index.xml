@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>植被覆盖度 on 会飞的🧹</title>
+    <link>http://www.umbel.top/tags/%E6%A4%8D%E8%A2%AB%E8%A6%86%E7%9B%96%E5%BA%A6/</link>
+    <description>Recent content in 植被覆盖度 on 会飞的🧹</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-Hans</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Sun, 31 Mar 2019 21:06:09 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.umbel.top/tags/%E6%A4%8D%E8%A2%AB%E8%A6%86%E7%9B%96%E5%BA%A6/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>LandSat8植被覆盖度遥感估算</title>
+      <link>http://www.umbel.top/post/landsat8%E6%A4%8D%E8%A2%AB%E8%A6%86%E7%9B%96%E5%BA%A6%E9%81%A5%E6%84%9F%E4%BC%B0%E7%AE%97/</link>
+      <pubDate>Sun, 31 Mar 2019 21:06:09 +0000</pubDate>
+      
+      <guid>http://www.umbel.top/post/landsat8%E6%A4%8D%E8%A2%AB%E8%A6%86%E7%9B%96%E5%BA%A6%E9%81%A5%E6%84%9F%E4%BC%B0%E7%AE%97/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;植被覆盖度&lt;/strong&gt;是指植被(包括叶、茎、枝)在地面的垂直投影面积占统计区总面积的百分比。容易与植被覆盖度混淆的概念是植被盖度&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;植被覆盖度是指单位面积内植被地上部分的 垂直投影面积所占的百分比值。植被覆盖度指示 了植被的茂密程度及植物进行光合作用面积的大 小，是一个反映地表植被群落生长态势的综合量化指标。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;植被盖度&lt;/strong&gt;是指植被冠层或叶面在地面的垂直投影面积占植被区总面积的比例。两个概念主要区别就是&lt;strong&gt;分母&lt;/strong&gt;不一样。植被覆盖度常用于植被变化、生态环境研究、水土保持、气候等方面&lt;/p&gt;
+
+&lt;p&gt;植被覆盖度的测量可分为&lt;strong&gt;地面测量&lt;/strong&gt;和&lt;strong&gt;遥感估算&lt;/strong&gt;两种方法。地面测量常用于田间尺度，遥感估算常用于区域尺度。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

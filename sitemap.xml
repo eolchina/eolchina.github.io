@@ -13,6 +13,11 @@
   </url>
   
   <url>
+    <loc>http://www.umbel.top/post/landsat8%E6%A4%8D%E8%A2%AB%E8%A6%86%E7%9B%96%E5%BA%A6%E9%81%A5%E6%84%9F%E4%BC%B0%E7%AE%97/</loc>
+    <lastmod>2019-03-31T21:06:09+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.umbel.top/post/hexo-theme-beantech/</loc>
     <lastmod>2017-03-18T10:51:24+00:00</lastmod>
   </url>
@@ -106,7 +111,7 @@
   
   <url>
     <loc>http://www.umbel.top/post/</loc>
-    <lastmod>2017-03-18T10:51:24+00:00</lastmod>
+    <lastmod>2019-03-31T21:06:09+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -119,6 +124,18 @@
   <url>
     <loc>http://www.umbel.top/</loc>
     <lastmod>2019-04-18T14:24:02+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.umbel.top/tags/%E6%A4%8D%E8%A2%AB%E8%A6%86%E7%9B%96%E5%BA%A6/</loc>
+    <lastmod>2019-03-31T21:06:09+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.umbel.top/tags/%E9%81%A5%E6%84%9F/</loc>
+    <lastmod>2019-03-31T21:06:09+00:00</lastmod>
     <priority>0</priority>
   </url>
   

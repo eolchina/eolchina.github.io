@@ -5,7 +5,11 @@
   <meta charset="utf-8" />
 
   
-  <title>Hugo Blog (SEO Version)</title>
+  <title>
+  Tag → 植被覆盖度
+  
+   | Hugo Blog (SEO Version)
+</title>
 
   
   
@@ -39,7 +43,7 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="Hugo Blog (SEO Version)">
   <meta property="og:description" content="Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.">
-  <meta property="og:url" content="http://www.umbel.top/">
+  <meta property="og:url" content="http://www.umbel.top/tags/%E6%A4%8D%E8%A2%AB%E8%A6%86%E7%9B%96%E5%BA%A6/">
   <meta property="og:image" content="/images/avatar.png">
 
 
@@ -48,8 +52,8 @@
 <meta name="generator" content="Hugo 0.54.0">
 
 
-<link rel="canonical" href="http://www.umbel.top/">
-<link rel="alternate" type="application/rss+xml" href="http://www.umbel.top/index.xml" title="会飞的🧹">
+<link rel="canonical" href="http://www.umbel.top/tags/%E6%A4%8D%E8%A2%AB%E8%A6%86%E7%9B%96%E5%BA%A6/">
+<link rel="alternate" type="application/rss+xml" href="http://www.umbel.top/tags/%E6%A4%8D%E8%A2%AB%E8%A6%86%E7%9B%96%E5%BA%A6/index.xml" title="会飞的🧹">
 
 <meta name="renderer" content="webkit">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -127,10 +131,11 @@
       
     </div>
     
-     <header class="site-header">
+    
+  <header class="site-header">
   <img class="avatar" src="http://www.umbel.top/images/avatar.png" alt="Avatar">
   
-  <h1 class="title">会飞的🧹</h1>
+  <h2 class="title">会飞的🧹</h2>
   
   <p class="subtitle">Umbel Pub.</p>
   <button class="menu-toggle" type="button" aria-label="Main Menu" aria-expanded="false" tab-index="0">
@@ -145,7 +150,7 @@
       
       
         <li class="menu-item
-           is-active
+          
           
           ">
           <a href="http://www.umbel.top/">首页</a>
@@ -160,7 +165,7 @@
       
         <li class="menu-item
           
-          
+           is-active
           ">
           <a href="http://www.umbel.top/tags/">标签</a>
         </li>
@@ -225,127 +230,36 @@
   </nav>
 </header>
 
-<section class="main post-list">
-  <header class="list-header offscreen">
-    <h2 class="list-label">All Posts</h2>
-  </header>
-  
-  
-   <article class="post-entry">
-  <header class="post-header">
-    <h3 class="post-title"><a href="http://www.umbel.top/post/2009-05-14-%E7%94%9F%E7%89%A9%E5%A4%9A%E6%A0%B7%E6%80%A7%E4%BF%A1%E6%81%AF%E5%AD%A6%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE/" class="post-link">生物多样性信息学参考文献</a></h3>
-    <p class="post-meta">@umbel · May 14, 2009 · 1 min read</p>
-  </header>
-  
-  <p class="post-summary">网站地址: http://www.taxondata.org/referencias/
-一个非常有用的关于生物多样性信息学参考文献的网站，网站上面提供了直接导入EndNote等文献管理工具的方法
- 快速的将这些重要文献收归到自己的文献数据库</p>
-  <footer class="post-footer">
-    <a class="read-more" href="http://www.umbel.top/post/2009-05-14-%E7%94%9F%E7%89%A9%E5%A4%9A%E6%A0%B7%E6%80%A7%E4%BF%A1%E6%81%AF%E5%AD%A6%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE/">Read More →</a>
-  </footer>
-</article>
-  <article class="post-entry">
-  <header class="post-header">
-    <h3 class="post-title"><a href="http://www.umbel.top/post/2009-05-14-%E5%A5%87%E6%80%AA%E7%9A%84%E9%97%AE%E9%A2%98/" class="post-link">奇怪的问题</a></h3>
-    <p class="post-meta">@umbel · May 14, 2009 · 1 min read</p>
-  </header>
-  
-  <p class="post-summary">这几天电脑老是出现这样的问题，怎么回事啊？</p>
-  <footer class="post-footer">
-    <a class="read-more" href="http://www.umbel.top/post/2009-05-14-%E5%A5%87%E6%80%AA%E7%9A%84%E9%97%AE%E9%A2%98/">Read More →</a>
-  </footer>
-</article>
-  <article class="post-entry">
-  <header class="post-header">
-    <h3 class="post-title"><a href="http://www.umbel.top/post/2009-05-12-sql%E6%8B%86%E5%88%86%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%9E%84%E6%88%90%E6%96%B0%E7%9A%84%E8%AE%B0%E5%BD%95/" class="post-link">SQL拆分字符串构成新的记录</a></h3>
-    <p class="post-meta">@umbel · May 12, 2009 · 1 min read</p>
-  </header>
-  
-  <p class="post-summary">原数据表的数据格式如下  要求将字段vernacular中用逗号”,”分隔的字符串单独取出，并且把相应行的spnumber也取出，最后形成一条新的记录。
-要求的结果如下  
-
- 实现的SQL语句如下  
-–拆分字段字符串形成新的记录
-CREATE TABLE tb
-(
- spnumber INT,
-vernacular VARCHAR(1000)
- ) 
-
-INSERT INTO tb
-SELECT SPNUMBER,
- COMNAME
-FROM dbo.CommonName 
- 
-
-DECLARE @i INT 
-SELECT @i = MAX(LEN(vernacular))
-FROM tb 
-SET ROWCOUNT @i 
-SELECT spnumber = IDENTITY( INT)
-INTO #t
-FROM syscolumns a,
-syscolumns b 
-SET ROWCOUNT 0 
-SELECT a.spnumber,</p>
-  <footer class="post-footer">
-    <a class="read-more" href="http://www.umbel.top/post/2009-05-12-sql%E6%8B%86%E5%88%86%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%9E%84%E6%88%90%E6%96%B0%E7%9A%84%E8%AE%B0%E5%BD%95/">Read More →</a>
-  </footer>
-</article>
-  <article class="post-entry">
-  <header class="post-header">
-    <h3 class="post-title"><a href="http://www.umbel.top/post/2009-05-11-%E4%B8%AD%E6%96%87%E5%92%8C%E6%95%B0%E5%AD%97%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%BB%84%E5%90%88%E7%9A%84%E6%8B%86%E5%88%86%E6%96%B9%E6%B3%95/" class="post-link">中文和数字字符串组合的拆分方法</a></h3>
-    <p class="post-meta">@umbel · May 11, 2009 · 1 min read</p>
-  </header>
-  
-  <p class="post-summary">数据表的结构和需要的结果  表中的VernacularAll字段包括中文和字符组合的字符串，需要得到的结果是将两者拆分到不同的字段Vernacular和Page。
-SQL语句如下  
-–将字段VernacularAll左边的中文字符串取出
- 
-UPDATE dbo.FRPSNames
-SET Vernacular = LEFT(VernacularAll,
-PATINDEX(’%[1-9]%’, VernacularAll) - 1)
- 
-–将字段VernacularAll右边的数字字符串取出
- 
-UPDATE dbo.FRPSNames
-SET Page = RIGHT(VernacularAll,
-LEN(VernacularAll) - PATINDEX(’%[1-9]%’, VernacularAll)
- &#43; 1)   .csharpcode, .csharpcode pre { font-size: small; color: black; font-family: consolas, “Courier New”, courier, monospace; background-color: #ffffff; /white-space: pre;/ } .csharpcode pre { margin: 0em; } .csharpcode .rem { color: #008000; } .csharpcode .kwrd { color: #0000ff; } .</p>
-  <footer class="post-footer">
-    <a class="read-more" href="http://www.umbel.top/post/2009-05-11-%E4%B8%AD%E6%96%87%E5%92%8C%E6%95%B0%E5%AD%97%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%BB%84%E5%90%88%E7%9A%84%E6%8B%86%E5%88%86%E6%96%B9%E6%B3%95/">Read More →</a>
-  </footer>
-</article>
-  <article class="post-entry">
-  <header class="post-header">
-    <h3 class="post-title"><a href="http://www.umbel.top/post/hello-world/" class="post-link">Hello World</a></h3>
-    <p class="post-meta">@umbel · Jan 1, 0001 · 1 min read</p>
-  </header>
-  
-  <p class="post-summary">Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick Start Create a new post $ hexo new &#34;My New Post&#34; More info: Writing
-Run server $ hexo server More info: Server
-Generate static files $ hexo generate More info: Generating
-Deploy to remote sites $ hexo deploy More info: Deployment</p>
-  <footer class="post-footer">
-    <a class="read-more" href="http://www.umbel.top/post/hello-world/">Read More →</a>
-  </footer>
-</article>
- 
-   
-  <footer class="list-footer">
-    <nav class="pagination">
-      <h3 class="offscreen">Pagination</h3>
+  <section class="main post-list">
+    <header class="list-header offscreen">
+      <h2 class="list-label">Posts List</h2>
+    </header>
+    
+    
       
-      <a class="pagination-previous" href="http://www.umbel.top/"
-        >← Newer Posts</a
-      >
-       
-    </nav>
-  </footer>
+        <article class="post-entry">
+  <header class="post-header">
+    <h3 class="post-title"><a href="http://www.umbel.top/post/landsat8%E6%A4%8D%E8%A2%AB%E8%A6%86%E7%9B%96%E5%BA%A6%E9%81%A5%E6%84%9F%E4%BC%B0%E7%AE%97/" class="post-link">LandSat8植被覆盖度遥感估算</a></h3>
+    <p class="post-meta">@umbel · Mar 31, 2019 · 1 min read</p>
+  </header>
   
-</section>
+    <img class="post-cover" src="http://www.umbel.top/images/cover.jpg" alt="LandSat8植被覆盖度遥感估算" lazyload="on">
+  
+  <p class="post-summary">植被覆盖度是指植被(包括叶、茎、枝)在地面的垂直投影面积占统计区总面积的百分比。容易与植被覆盖度混淆的概念是植被盖度
+ 植被覆盖度是指单位面积内植被地上部分的 垂直投影面积所占的百分比值。植被覆盖度指示 了植被的茂密程度及植物进行光合作用面积的大 小，是一个反映地表植被群落生长态势的综合量化指标。
+ 植被盖度是指植被冠层或叶面在地面的垂直投影面积占植被区总面积的比例。两个概念主要区别就是分母不一样。植被覆盖度常用于植被变化、生态环境研究、水土保持、气候等方面
+植被覆盖度的测量可分为地面测量和遥感估算两种方法。地面测量常用于田间尺度，遥感估算常用于区域尺度。
+</p>
+  <footer class="post-footer">
+    <a class="read-more" href="http://www.umbel.top/post/landsat8%E6%A4%8D%E8%A2%AB%E8%A6%86%E7%9B%96%E5%BA%A6%E9%81%A5%E6%84%9F%E4%BC%B0%E7%AE%97/">Read More →</a>
+  </footer>
+</article>
 
+      
+    
+    
+  </section>
+  
 <footer class="site-footer">
   <p>© 2017-2019 会飞的🧹</p>
   <p>Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> with theme <a href="https://github.com/laozhu/hugo-nuo" target="_blank" rel="noopener">Nuo</a>.</p>
@@ -390,6 +304,7 @@ if (!doNotTrack) {
 
 
 
- 
+
+
   </body>
 </html>
