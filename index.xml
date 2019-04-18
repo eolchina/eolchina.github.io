@@ -41,29 +41,6 @@
     </item>
     
     <item>
-      <title>LandSat8植被覆盖度遥感估算</title>
-      <link>http://www.umbel.top/post/landsat8%E6%A4%8D%E8%A2%AB%E8%A6%86%E7%9B%96%E5%BA%A6%E9%81%A5%E6%84%9F%E4%BC%B0%E7%AE%97/</link>
-      <pubDate>Sun, 31 Mar 2019 21:06:09 +0000</pubDate>
-      
-      <guid>http://www.umbel.top/post/landsat8%E6%A4%8D%E8%A2%AB%E8%A6%86%E7%9B%96%E5%BA%A6%E9%81%A5%E6%84%9F%E4%BC%B0%E7%AE%97/</guid>
-      <description>植被覆盖度是指植被(包括叶、茎、枝)在地面的垂直投影面积占统计区总面积的百分比。容易与植被覆盖度混淆的概念是植被盖度
- 植被覆盖度是指单位面积内植被地上部分的 垂直投影面积所占的百分比值。植被覆盖度指示 了植被的茂密程度及植物进行光合作用面积的大 小，是一个反映地表植被群落生长态势的综合量化指标。
- 植被盖度是指植被冠层或叶面在地面的垂直投影面积占植被区总面积的比例。两个概念主要区别就是分母不一样。植被覆盖度常用于植被变化、生态环境研究、水土保持、气候等方面
-植被覆盖度的测量可分为地面测量和遥感估算两种方法。地面测量常用于田间尺度，遥感估算常用于区域尺度。
-遥感估算模型 目前已经发展了很多利用遥感测量植被覆盖度的方法，较为实用的方法是利用植被指数近似估算植被覆盖度，常用的植被指数为NDVI。下面是李苗苗等在像元二分模型的基础上研究的模型：
- 像元二分模型的基本原理是：假设每个像元都可分解为纯植被和纯土壤两个部分，所得的光谱信息（如NDVI，值为NNDVI ）也即是两种纯组分的以面积比例加权的线性组合（公式 A）；其中，纯植被所占的面积百分比即为研究区的植被覆盖度 （公式B）。具体可表示为：
- NNDVI = NNDVIsoil ·  (1-fveg) + N  · fveg (A)
-fveg =（NNDVI - NNDVIsoil ）/（NNDVI - NNDVIveg ） (B)
- 像元二分模型的应用关键是如何确定NNDVIsoil和NNDVIveg的值。对于纯裸地像元，NNDVIsoil理论上应 该是一个接近 0 的值，且不随时间的变化而变化。
-但现实中由于大气条件、地表湿度以及太阳光照条件等是在不断变化，区域上的NNDVIsoil并不是一个定值。 一般来说，它在-0.1~0.2 之间变化。
-对于纯植被像元来说，不同季节植被有春夏秋冬的季相变化，不同地区植被有不同类型和构成，这种 植被类型及其构成、植被生长的季相变化都会造 成NNDVIveg的时空变异。以目视、依靠色调标志来判断纯净像元的方法会因为个体差异而导致较大判别误差，因此该方法在一般的工程性、业务性的监测中需要特别注意。
- VFC = (NDVI - NDVIsoil)/ (NDVIveg - NDVIsoil) (1)   其中, NDVIsoil为完全是裸土或无植被覆盖区域的NDVI值
-NDVIveg则代表完全被植被所覆盖的像元的NDVI值，即纯植被像元的NDVI值。
-两个值的计算公式为：
- NDVIsoil=(VFCmax*NDVImin- VFCmin*NDVImax)/( VFCmax- VFCmin) (2) NDVIveg=((1-VFCmin)*NDVImax- (1-VFCmax)*NDVImin)/( VFCmax- VFCmin) (3)   利用这个模型计算植被覆盖度的关键是计算NDVIsoil和NDVIveg。这里有两种假设：</description>
-    </item>
-    
-    <item>
       <title>[Hexo] Theme BeanTech</title>
       <link>http://www.umbel.top/post/hexo-theme-beantech/</link>
       <pubDate>Sat, 18 Mar 2017 10:51:24 +0000</pubDate>
